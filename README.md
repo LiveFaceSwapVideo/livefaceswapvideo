@@ -2,6 +2,10 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+<p align="center">
+  <a href="https://livefaceswap.video"><img src="assets/logo-dark.png" alt="LiveFaceSwapVideo" width="72" /></a>
+</p>
+
 Public brand repository for [LiveFaceSwapVideo](https://livefaceswap.video). The website describes a cloud live-camera studio: you choose a reference portrait you have permission to use, turn on a camera, and watch Face Swap, Try-On, or Restyle in the browser. [LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) publishes Windows installers and a stable macOS release that send the live result to other apps through a virtual camera named LiveFaceSwapVideo Camera.
 
 This repository is the public introduction to that product and a place for a small local example. The face-swap engine, the website implementation, and the desktop application source are not published here. Using the website does not make those private components open source.
@@ -17,6 +21,26 @@ Product pages change. The snapshot below was read from the public site on **2026
 - Run the [local portrait-consent preflight](examples/portrait-consent-preflight/README.md) on your own machine. It records your answers. It does not contact the service and it does not approve a session.
 
 Support requests go to the [contact page](https://livefaceswap.video/contact) or `support@livefaceswap.video`. The contact page says the team responds within one to two business days. The same address is the abuse-report address published on the acceptable-use policy.
+
+## Public images
+
+These files were copied from the public website on 2026-11-19. The first image is the Open Graph image at [livefaceswap.video/og-image.png](https://livefaceswap.video/og-image.png). The homepage examples and the desktop preview use the same files the site displays. A separate Twitter crop exists at [livefaceswap.video/twitter-image.png](https://livefaceswap.video/twitter-image.png); it is the same artwork and is not copied again here.
+
+[![LiveFaceSwapVideo Open Graph image](assets/og-image.png)](https://livefaceswap.video)
+
+### Homepage examples
+
+[![Before and after live face swap: original webcam face next to the swapped result](assets/examples/face-swap.jpg)](https://livefaceswap.video)
+
+[![Before and after live try-on: casual hoodie next to a formal suit on the same person](assets/examples/try-on.jpg)](https://livefaceswap.video)
+
+[![Before and after live restyle: a real photo next to a claymation version of the same person](assets/examples/restyle.jpg)](https://livefaceswap.video)
+
+### Desktop preview
+
+[![LiveFaceSwapVideo Desktop workspace published on the desktop page](assets/desktop-app-preview.jpg)](https://livefaceswap.video/desktop)
+
+The desktop page publishes this workspace preview. The picture itself labels the installed virtual camera as the Windows virtual camera, and the selected model shown there is Live V2.0.
 
 ## What the public site describes
 
@@ -93,6 +117,7 @@ Report abuse to `support@livefaceswap.video` with links or screenshots, account 
 Published here:
 
 - This English overview and the [Simplified Chinese version](README.zh-CN.md).
+- Copies of the public Open Graph image, homepage example images, and desktop preview, kept under [assets/](assets/og-image.png).
 - A local, network-free [portrait-consent preflight](examples/portrait-consent-preflight/README.md) that you can run and test with Python's standard library.
 
 Not published here:

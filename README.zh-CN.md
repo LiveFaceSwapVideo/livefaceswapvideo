@@ -2,6 +2,10 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+<p align="center">
+  <a href="https://livefaceswap.video"><img src="assets/logo-dark.png" alt="LiveFaceSwapVideo" width="72" /></a>
+</p>
+
 这是 [LiveFaceSwapVideo](https://livefaceswap.video) 的公开品牌仓库。官网描述的是一个云端实时镜头工作室：选择一张你有权使用的参考人像，打开摄像头，在浏览器里查看 Face Swap、Try-On 或 Restyle。[LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) 公开了 Windows 安装包和 macOS 正式版，并通过名为 LiveFaceSwapVideo Camera 的虚拟摄像头，把实时结果送到其他应用。
 
 本仓库用来介绍上述已公开的产品，并放一个可以在本地运行的小示例。换脸引擎、网站实现和桌面应用源代码不在这里。网站可以正常使用，并不表示这些未公开的部分是开源软件。
@@ -17,6 +21,26 @@
 - 在自己的电脑上运行 [本地人像同意预检](examples/portrait-consent-preflight/README.md)。它只记录你的回答，不连接服务，也不批准任何会话。
 
 支持请求使用 [联系页面](https://livefaceswap.video/contact) 或 `support@livefaceswap.video`。联系页写明会在一到两个工作日内回复。可接受使用政策也把这个地址列为滥用举报邮箱。
+
+## 公开图片
+
+这些文件于 2026-11-19 从公开网站复制。第一张是 Open Graph 图，地址为 [livefaceswap.video/og-image.png](https://livefaceswap.video/og-image.png)。首页示例和桌面版预览使用网站上展示的同一批文件。Twitter 另有一张裁切图 [livefaceswap.video/twitter-image.png](https://livefaceswap.video/twitter-image.png)，画面相同，这里不再重复保存。
+
+[![LiveFaceSwapVideo Open Graph 图](assets/og-image.png)](https://livefaceswap.video)
+
+### 首页示例
+
+[![实时换脸前后：原始摄像头人脸与换脸结果并排](assets/examples/face-swap.jpg)](https://livefaceswap.video)
+
+[![实时试穿前后：同一人从休闲连帽衫换成正式西装](assets/examples/try-on.jpg)](https://livefaceswap.video)
+
+[![实时重绘前后：真人照片与同一人的黏土动画版本并排](assets/examples/restyle.jpg)](https://livefaceswap.video)
+
+### 桌面版预览
+
+[![桌面版页面公布的 LiveFaceSwapVideo Desktop 工作区](assets/desktop-app-preview.jpg)](https://livefaceswap.video/desktop)
+
+桌面版页面公布了这张工作区预览。图中的虚拟摄像头说明写的是 Windows 虚拟摄像头，所选模型显示为 Live V2.0。
 
 ## 官网公开描述的产品
 
@@ -93,6 +117,7 @@
 这里公开的内容：
 
 - 这份英文说明的简体中文译文，以及 [英文原文](README.md)。
+- 从公开网站复制的 Open Graph 图、首页示例图和桌面版预览，放在 [assets/](assets/og-image.png)。
 - 一个不访问网络的 [人像同意预检](examples/portrait-consent-preflight/README.md)，可用 Python 标准库运行和测试。
 
 <a id="local-preflight"></a>

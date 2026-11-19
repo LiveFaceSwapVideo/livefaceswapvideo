@@ -16,6 +16,8 @@ Product pages change. The snapshot below was read from the public site on **2026
 
 - [Open the live studio](https://livefaceswap.video) for the browser preview.
 - [Read the desktop page](https://livefaceswap.video/desktop) before installing Windows or the stable macOS release.
+- [Snap Camera alternative](https://livefaceswap.video/snap-camera-alternative) explains the virtual-camera setup after Snap Camera shut down.
+- [How to change your face in a live stream](https://livefaceswap.video/blog/how-to-change-face-in-live-stream) walks through OBS, Twitch, TikTok Live, and Zoom.
 - [Read current plans](https://livefaceswap.video/pricing) before relying on any price or credit total in this file.
 - [Read the acceptable-use policy](https://livefaceswap.video/acceptable-use) before uploading a face or going live.
 - Run the [local portrait-consent preflight](examples/portrait-consent-preflight/README.md) on your own machine. It records your answers. It does not contact the service and it does not approve a session.

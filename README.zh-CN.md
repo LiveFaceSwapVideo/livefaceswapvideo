@@ -16,6 +16,8 @@
 
 - 在 [livefaceswap.video](https://livefaceswap.video) 打开浏览器预览。
 - 安装 Windows 或 macOS 正式版之前，先看 [桌面版页面](https://livefaceswap.video/desktop)。
+- [Snap Camera 替代说明](https://livefaceswap.video/snap-camera-alternative)介绍 Snap Camera 停用后的虚拟摄像头用法。
+- [如何在直播中换脸](https://livefaceswap.video/blog/how-to-change-face-in-live-stream)说明 OBS、Twitch、TikTok Live 和 Zoom 的操作路径。
 - 引用任何价格或积分数量之前，先看 [当前方案](https://livefaceswap.video/pricing)。
 - 上传人脸或公开直播之前，先看 [可接受使用政策](https://livefaceswap.video/acceptable-use)。
 - 在自己的电脑上运行 [本地人像同意预检](examples/portrait-consent-preflight/README.md)。它只记录你的回答，不连接服务，也不批准任何会话。

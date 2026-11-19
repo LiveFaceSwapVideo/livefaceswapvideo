@@ -1,0 +1,8 @@
+{
+  "adult_operator": false,
+  "likeness_permission": false,
+  "no_minor": false,
+  "no_public_figure_without_authorization": false,
+  "permitted_purpose": false,
+  "synthetic_disclosure": false
+}

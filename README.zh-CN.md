@@ -24,7 +24,7 @@
 
 ## 公开图片
 
-这些文件于 2026-11-19 从公开网站复制。第一张是 Open Graph 图，地址为 [livefaceswap.video/og-image.png](https://livefaceswap.video/og-image.png)。首页示例和桌面版预览使用网站上展示的同一批文件。Twitter 另有一张裁切图 [livefaceswap.video/twitter-image.png](https://livefaceswap.video/twitter-image.png)，画面相同，这里不再重复保存。
+画面来自[官网首页](https://livefaceswap.video)和[桌面版页面](https://livefaceswap.video/desktop)。
 
 [![LiveFaceSwapVideo Open Graph 图](assets/og-image.png)](https://livefaceswap.video)
 
@@ -59,10 +59,10 @@
 
 | 类别 | 桌面版页面列出的名称 |
 | --- | --- |
-| 直播软件 | OBS Studio、Streamlabs Desktop、PRISM Live Studio、TikTok LIVE Studio、XSplit Broadcaster、vMix |
-| 直播平台 | Twitch、YouTube Live、TikTok LIVE、Facebook Live、Instagram Live、Kick |
-| 会议应用 | Zoom、Microsoft Teams、Google Meet、Webex、Slack |
-| 视频通话 | Discord、WhatsApp、Telegram |
+| 直播软件 | [OBS Studio](https://livefaceswap.video/face-swap-for-obs)、Streamlabs Desktop、PRISM Live Studio、TikTok LIVE Studio、XSplit Broadcaster、vMix |
+| 直播平台 | [Twitch](https://livefaceswap.video/face-swap-for-twitch)、[YouTube Live](https://livefaceswap.video/face-swap-for-youtube-live)、[TikTok LIVE](https://livefaceswap.video/face-swap-for-tiktok-live)、Facebook Live、Instagram Live、Kick |
+| 会议应用 | [Zoom](https://livefaceswap.video/face-swap-for-zoom)、[Microsoft Teams](https://livefaceswap.video/face-swap-for-microsoft-teams)、[Google Meet](https://livefaceswap.video/face-swap-for-google-meet)、Webex、Slack |
+| [视频通话](https://livefaceswap.video/face-swap-for-video-calls) | [Discord](https://livefaceswap.video/face-swap-for-discord)、WhatsApp、Telegram |
 
 首页首屏特别提到 OBS、Zoom 和 Discord。桌面版指南描述的实际路径是：安装桌面应用，开始会话，然后在另一个应用里选择 LiveFaceSwapVideo Camera，并在公开播出前做一次私人预览。
 

@@ -24,7 +24,7 @@ Support requests go to the [contact page](https://livefaceswap.video/contact) or
 
 ## Public images
 
-These files were copied from the public website on 2026-11-19. The first image is the Open Graph image at [livefaceswap.video/og-image.png](https://livefaceswap.video/og-image.png). The homepage examples and the desktop preview use the same files the site displays. A separate Twitter crop exists at [livefaceswap.video/twitter-image.png](https://livefaceswap.video/twitter-image.png); it is the same artwork and is not copied again here.
+Pictures from the [homepage](https://livefaceswap.video) and the [desktop page](https://livefaceswap.video/desktop).
 
 [![LiveFaceSwapVideo Open Graph image](assets/og-image.png)](https://livefaceswap.video)
 
@@ -59,10 +59,10 @@ The desktop page names these applications as places where a selectable camera ca
 
 | Group | Names published on the desktop page |
 | --- | --- |
-| Streaming software | OBS Studio, Streamlabs Desktop, PRISM Live Studio, TikTok LIVE Studio, XSplit Broadcaster, vMix |
-| Streaming platforms | Twitch, YouTube Live, TikTok LIVE, Facebook Live, Instagram Live, Kick |
-| Meeting apps | Zoom, Microsoft Teams, Google Meet, Webex, Slack |
-| Video calls | Discord, WhatsApp, Telegram |
+| Streaming software | [OBS Studio](https://livefaceswap.video/face-swap-for-obs), Streamlabs Desktop, PRISM Live Studio, TikTok LIVE Studio, XSplit Broadcaster, vMix |
+| Streaming platforms | [Twitch](https://livefaceswap.video/face-swap-for-twitch), [YouTube Live](https://livefaceswap.video/face-swap-for-youtube-live), [TikTok LIVE](https://livefaceswap.video/face-swap-for-tiktok-live), Facebook Live, Instagram Live, Kick |
+| Meeting apps | [Zoom](https://livefaceswap.video/face-swap-for-zoom), [Microsoft Teams](https://livefaceswap.video/face-swap-for-microsoft-teams), [Google Meet](https://livefaceswap.video/face-swap-for-google-meet), Webex, Slack |
+| [Video calls](https://livefaceswap.video/face-swap-for-video-calls) | [Discord](https://livefaceswap.video/face-swap-for-discord), WhatsApp, Telegram |
 
 The homepage hero names OBS, Zoom, and Discord in particular. The desktop guide describes the practical route: install the desktop app, start a session, then select LiveFaceSwapVideo Camera in the other application, and run a private preview before a public broadcast.
 

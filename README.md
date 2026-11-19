@@ -83,23 +83,7 @@ The signature claim above is the website's description. This repository's snapsh
 
 ## Credits and plans
 
-The pricing page is the authority for current amounts. On 2026-11-19 it published this metering rule: credits pay for live Face Swap and Try-On on Live V2.0 at **3 credits per second**, and billing starts only after the AI video appears. Camera setup, choosing a photo, connecting, queue, and warmup are described as not charged. The visible pricing copy does not state a separate Restyle rate.
-
-Visible homepage and pricing-FAQ text says a new account receives **100 credits**, described as about 33 seconds on Live V2.0. An embedded free-plan string in the pricing page data says "Sign up and get 50 credits" and was not visible in the rendered homepage or pricing FAQ. Until the site uses one figure, treat the live page you see while signed out as the offer.
-
-Annual subscription cards visible on the pricing page:
-
-| Plan | Price shown | Credits shown | Live V2.0 time shown on the page |
-| --- | --- | --- | --- |
-| Starter — Annual | $11.92 per month, billed $143 yearly | 43,200, granted once | About 4 hours |
-| Pro — Annual | $23.90 per month, billed $286.80 yearly | 168,000, granted once | About 15.6 hours |
-| Ultra — Annual | $79.92 per month, billed $959 yearly | 720,000, granted once | About 66.7 hours |
-
-The pricing FAQ states **Starter monthly** as **$14.90 / 3,600 credits**, about 20 minutes on Live V2.0. Monthly feature strings, without a monthly dollar price in the fetched page, list Pro at 14,000 credits per month (about 78 minutes) and Ultra at 60,000 credits per month (about 5.6 hours). Those strings say unused monthly credits roll over for 1 month. The FAQ says each monthly grant is valid for 60 days, a yearly allowance is granted once and stays valid for 1 year, and credits that expire sooner are used first.
-
-The FAQ also names one-time packs **Premium ($49.90)** and **Ultra ($499.90)**. Packs do not renew. Pack feature strings give about 1.8 hours for the Premium pack and about 27.8 hours for the Ultra pack on Live V2.0, with pack credits valid for 1 year. The same strings mention Starter and Standard pack durations of about 30 minutes without a dollar price in the FAQ. Subscription and pack copy on the page says Face Swap and Try-On have no watermark.
-
-The FAQ says refunds depend on usage and are reviewed case by case, and that renewal can be canceled under Settings → Billing. Those rules also appear, in more detail, in the [terms](https://livefaceswap.video/terms).
+Prices, credit amounts, and plan names are on the [pricing page](https://livefaceswap.video/pricing).
 
 ## Portrait permission and responsible use
 
@@ -127,9 +111,11 @@ Not published here:
 - The face-swap engine, model weights, website source, desktop source, account system, or billing system.
 - A public API or SDK. Pages that mention API abuse do not document a developer interface, and this repository does not invent one.
 - Installer binaries. Use the desktop page.
-- A license grant. This repository has no `LICENSE` file. The text and example are here to read and to run locally. They do not license the LiveFaceSwapVideo service, and they do not by themselves grant reuse rights to these files.
+- The live website, desktop app, and face-swap engine. Copyright in those products stays with LiveFaceSwapVideo. They are not published here, and the MIT License does not make them open source.
 
-Public product questions that can be asked without account data, payment data, portraits, or session recordings can use [GitHub Issues](https://github.com/LiveFaceSwapVideo1/livefaceswapvideo/issues). Account-specific help stays on the contact channel above.
+Copyright © 2026 LiveFaceSwapVideo. The example code in [examples/](examples/portrait-consent-preflight/README.md) is released under the [MIT License](LICENSE). You may use, copy, and share that example under those terms, including the copyright notice.
+
+Public product questions that can be asked without account data, payment data, portraits, or session recordings can use [GitHub Issues](https://github.com/LiveFaceSwapVideo/livefaceswapvideo/issues). Account-specific help stays on the contact channel above.
 
 ## Language
 

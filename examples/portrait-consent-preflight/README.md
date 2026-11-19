@@ -2,7 +2,7 @@
 
 [English product README](../../README.md) | [简体中文产品说明](../../README.zh-CN.md)
 
-This example records whether you personally acknowledge the portrait and use limits published by [LiveFaceSwapVideo](https://livefaceswap.video/acceptable-use). It is a local reminder before you upload a face or start a live session.
+This example records whether you personally acknowledge the portrait and use limits published by [LiveFaceSwapVideo](https://livefaceswap.video/acceptable-use). It is a local reminder before you upload a face or start a live session. Copyright © 2026 LiveFaceSwapVideo. This example is released under the [MIT License](../../LICENSE).
 
 It does not log in, upload a photo, call a LiveFaceSwapVideo API, or decide that a use is legal. A passing result is your own note. The [acceptable-use policy](https://livefaceswap.video/acceptable-use), [terms](https://livefaceswap.video/terms), and [privacy policy](https://livefaceswap.video/privacy) remain the service rules.
 

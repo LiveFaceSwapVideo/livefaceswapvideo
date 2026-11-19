@@ -2,16 +2,16 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-这是 [LiveFaceSwapVideo](https://livefaceswap.video) 的公开品牌仓库。官网描述的是一个云端实时镜头工作室：选择一张你有权使用的参考人像，打开摄像头，在浏览器里查看 Face Swap、Try-On 或 Restyle。[LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) 公开了 Windows 安装包和 macOS 测试版，并通过名为 LiveFaceSwapVideo Camera 的虚拟摄像头，把实时结果送到其他应用。
+这是 [LiveFaceSwapVideo](https://livefaceswap.video) 的公开品牌仓库。官网描述的是一个云端实时镜头工作室：选择一张你有权使用的参考人像，打开摄像头，在浏览器里查看 Face Swap、Try-On 或 Restyle。[LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) 公开了 Windows 安装包和 macOS 正式版，并通过名为 LiveFaceSwapVideo Camera 的虚拟摄像头，把实时结果送到其他应用。
 
 本仓库用来介绍上述已公开的产品，并放一个可以在本地运行的小示例。换脸引擎、网站实现和桌面应用源代码不在这里。网站可以正常使用，并不表示这些未公开的部分是开源软件。
 
-产品页面会变化。下面的记录读自 **2026-11-19** 的公开网页。若本页与官网不一致，以官网为准。
+产品页面会变化。下面的记录读自 **2026-11-19** 的公开网页。若本页与官网不一致，以官网为准。macOS 桌面版的发布状态是例外：维护者确认 Apple Silicon 版本是正式版。
 
 ## 从这里开始
 
 - 在 [livefaceswap.video](https://livefaceswap.video) 打开浏览器预览。
-- 安装 Windows 或 macOS 测试版之前，先看 [桌面版页面](https://livefaceswap.video/desktop)。
+- 安装 Windows 或 macOS 正式版之前，先看 [桌面版页面](https://livefaceswap.video/desktop)。
 - 引用任何价格或积分数量之前，先看 [当前方案](https://livefaceswap.video/pricing)。
 - 上传人脸或公开直播之前，先看 [可接受使用政策](https://livefaceswap.video/acceptable-use)。
 - 在自己的电脑上运行 [本地人像同意预检](examples/portrait-consent-preflight/README.md)。它只记录你的回答，不连接服务，也不批准任何会话。
@@ -48,7 +48,7 @@
 | --- | --- | --- |
 | 浏览器工作室 | 在 [livefaceswap.video](https://livefaceswap.video) 试用参考图、摄像头、效果和模型 | 浏览器内预览，不另行安装。 |
 | Windows 桌面版 | 通过 LiveFaceSwapVideo Camera 把实时输出送到其他软件 | 桌面版页面把当前 Windows 版本标为 **0.1.17**，分别提供 Windows 11 和 Windows 10 安装包，并描述为已代码签名。Windows 11 按钮解析到 `LiveFaceSwapVideo-Setup-0.1.17.exe`。Windows 10 按钮解析到 `LiveFaceSwapVideo-Win10-Setup-0.1.16.exe`。 |
-| macOS 桌面版 | 同样的虚拟摄像头路径，属于未签名测试版 | 页面文字和下载文件名都是 Apple Silicon 的 **0.1.16**：`LiveFaceSwapVideo-0.1.16.dmg`。macOS 可能会要求在“隐私与安全性”中允许该应用。 |
+| macOS 桌面版 | 同样的虚拟摄像头路径，属于正式版 | Apple Silicon 版本仍是 **0.1.16**：`LiveFaceSwapVideo-0.1.16.dmg`。macOS 可能会要求在“隐私与安全性”中允许该应用。 |
 | Linux | 只在桌面版常见问题中被提到 | 常见问题写明 Linux 仍只有预览。该页没有发布 Linux 安装包。 |
 
 桌面版页面称 Windows 下载免费，并说明应用使用与网站相同的 LiveFaceSwapVideo 积分。安装包从该页按钮获取。本仓库不转分发安装包，也不提供私有引擎的安装命令。

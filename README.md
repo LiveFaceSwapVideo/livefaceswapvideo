@@ -2,16 +2,16 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Public brand repository for [LiveFaceSwapVideo](https://livefaceswap.video). The website describes a cloud live-camera studio: you choose a reference portrait you have permission to use, turn on a camera, and watch Face Swap, Try-On, or Restyle in the browser. [LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) publishes Windows installers and a macOS beta that send the live result to other apps through a virtual camera named LiveFaceSwapVideo Camera.
+Public brand repository for [LiveFaceSwapVideo](https://livefaceswap.video). The website describes a cloud live-camera studio: you choose a reference portrait you have permission to use, turn on a camera, and watch Face Swap, Try-On, or Restyle in the browser. [LiveFaceSwapVideo Desktop](https://livefaceswap.video/desktop) publishes Windows installers and a stable macOS release that send the live result to other apps through a virtual camera named LiveFaceSwapVideo Camera.
 
 This repository is the public introduction to that product and a place for a small local example. The face-swap engine, the website implementation, and the desktop application source are not published here. Using the website does not make those private components open source.
 
-Product pages change. The snapshot below was read from the public site on **2026-11-19**. When this page and the website disagree, follow the website.
+Product pages change. The snapshot below was read from the public site on **2026-11-19**. When this page and the website disagree, follow the website. The macOS desktop release status is the exception: the maintainer confirms that the Apple Silicon build is a stable release.
 
 ## Start here
 
 - [Open the live studio](https://livefaceswap.video) for the browser preview.
-- [Read the desktop page](https://livefaceswap.video/desktop) before installing Windows or the macOS beta.
+- [Read the desktop page](https://livefaceswap.video/desktop) before installing Windows or the stable macOS release.
 - [Read current plans](https://livefaceswap.video/pricing) before relying on any price or credit total in this file.
 - [Read the acceptable-use policy](https://livefaceswap.video/acceptable-use) before uploading a face or going live.
 - Run the [local portrait-consent preflight](examples/portrait-consent-preflight/README.md) on your own machine. It records your answers. It does not contact the service and it does not approve a session.
@@ -48,7 +48,7 @@ The homepage hero names OBS, Zoom, and Discord in particular. The desktop guide 
 | --- | --- | --- |
 | Browser studio | Try a reference, camera, effect, and model on [livefaceswap.video](https://livefaceswap.video) | Preview in the browser. No separate install. |
 | Windows desktop | Send live output to other software through LiveFaceSwapVideo Camera | The desktop page labels the current Windows release **0.1.17**, offers separate Windows 11 and Windows 10 installers, and describes them as code-signed. The Windows 11 button resolved to `LiveFaceSwapVideo-Setup-0.1.17.exe`. The Windows 10 button resolved to `LiveFaceSwapVideo-Win10-Setup-0.1.16.exe`. |
-| macOS desktop | Same virtual-camera route, as an unsigned beta | Page text and the download name agree on **0.1.16** for Apple Silicon: `LiveFaceSwapVideo-0.1.16.dmg`. macOS may require allowing the app in Privacy & Security. |
+| macOS desktop | Same virtual-camera route, as a stable release | Apple Silicon build **0.1.16**: `LiveFaceSwapVideo-0.1.16.dmg`. macOS may require allowing the app in Privacy & Security. |
 | Linux | Mentioned only in the desktop FAQ | The FAQ says Linux is still preview-only. No Linux installer was published on that page. |
 
 The desktop page calls the Windows download free and says the app uses the same LiveFaceSwapVideo credits as the website. Installers are reached from the buttons on that page. This repository does not redistribute them, and it does not publish install commands for the private engine.
